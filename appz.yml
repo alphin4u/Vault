@@ -1,8 +1,8 @@
 app:
     name: Vault
     code: VAULT
-    notify: akanade@ecloudcontrol.com
-
+    notify: alphin.jose@adapt-me.com
+    
 build:
     version: 0.4
     env: DEV
@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: abhikanade-cc/DEV
+    context: alphin4u/DEV
     type: statefulset
     replicas: 1
     port:
